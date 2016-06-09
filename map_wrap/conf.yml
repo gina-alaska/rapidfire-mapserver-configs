@@ -1,0 +1,12 @@
+defaults:
+  envsh: /opt/mapping_tools_builds/2016.05.11/setup.sh
+  mapserv: /opt/mapping_tools_builds/2016.05.11/bin/mapserv
+  timeout: 3600
+  maps:
+    unused: no_such_map
+configs:
+  "/rapidfire":
+    prefix: "rapidfire"
+    url: "rapidfire"
+    projections:
+      default: "rapidfire.map"
