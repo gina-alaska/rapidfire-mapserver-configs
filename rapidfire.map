@@ -19,7 +19,7 @@ MAP
  		"wms_srs"               "EPSG:3338 EPSG:102006"
                 "wms_formatlist"        "image/jpeg,image/jpg,image/png,image/jpeg,image/wbmp,image/png24"
                 "wms_format"            "image/jpeg"
-                "wms_onlineresource"    "http://realtime.gina.alaska.edu/rapidfire?"
+                "wms_onlineresource"    "http://ogc.gina.alaska.edu/rapidfire/rapidfire?"
 		"wms_enable_request" "GetMap GetCapabilities"
         END
     END
