@@ -10,3 +10,8 @@ configs:
     url: "rapidfire"
     projections:
       default: "rapidfire.map"
+  "/historical":
+    prefix: "historical"
+    url: "historical"
+    projections:
+      default: "modis.map"
