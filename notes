@@ -1,0 +1,1 @@
+ ruby tools/generate_rapid_fire.rb /ogc/data/nps/rapidfire/*/Southwest*.tif > /ogc/data/nps/rapidfire/rapidfire.map

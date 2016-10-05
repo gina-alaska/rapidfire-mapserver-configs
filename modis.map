@@ -1,0 +1,29 @@
+MAP
+    NAME "MODIS Historical"
+    STATUS ON
+    SIZE 400 300
+    EXTENT -4873122.619 -547563.620 2622614.632 3960373.233
+    UNITS METERS
+    IMAGECOLOR 255 255 255
+
+    INCLUDE "includes/defaults/output_formats.agg.include.map"
+
+### Not used for wms based stuff..
+     INCLUDE "includes/projections/3338.include.map"
+
+    WEB
+        METADATA
+                "wms_title"             "Modis Rapidfire"
+                "wms_name"              "Modis Rapidfire"
+                "wms_abstract"          "tbd"
+ 		"wms_srs"               "EPSG:3338 EPSG:102006"
+                "wms_formatlist"        "image/jpeg,image/jpg,image/png,image/jpeg,image/wbmp,image/png24"
+                "wms_format"            "image/jpeg"
+                #"wms_onlineresource"    "http://ogc.gina.alaska.edu/nps/?"
+		"wms_onlineresource"    "http://ogc.gina.alaska.edu/nps/historical?"
+		"wms_enable_request" "GetMap GetCapabilities"
+        END
+    END
+
+    INCLUDE "/ogc/data/nps/historical/modis.map"
+END
