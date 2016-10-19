@@ -1,1 +1,3 @@
- ruby tools/generate_rapid_fire.rb /ogc/data/nps/rapidfire/*/Southwest*.tif > /ogc/data/nps/rapidfire/rapidfire.map
+ruby tools/generate_rapid_fire.rb /ogc/data/nps/rapidfire/*/Southwest*.tif > /ogc/data/nps/rapidfire/rapidfire.map
+ruby tools/generate_historical.rb /ogc/data/nps/historical/modis/*/*true* /ogc/data/nps/historical/modis/*/*false*  >  /ogc/data/nps/historical/modis.map
+

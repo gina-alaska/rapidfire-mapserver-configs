@@ -18,7 +18,7 @@ sorted_by_date.each do |item|
 	data_type = "false_color" if (item.include?("false_color"))
 
 	#skip these for now
-	next if data_type == "367" || data_type == "false_color"
+	next if data_type == "367" # || data_type == "false_color"
 
 	date_of_data =  DateTime.strptime( item.split("_")[-5,2].join, "%Y%m%d%H%M%S")
 	name = date_of_data.strftime("SouthwestAlaska.%Y%j.%H%M.#{platform}.#{source}.#{data_type}")
