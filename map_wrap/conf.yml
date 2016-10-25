@@ -15,3 +15,8 @@ configs:
     url: "historical"
     projections:
       default: "modis.map"
+  "/historical_false":
+    prefix: "historical_false"
+    url: "historical_false"
+    projections:
+      default: "modis_false.map"
